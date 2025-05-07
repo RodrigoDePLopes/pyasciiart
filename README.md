@@ -1,0 +1,25 @@
+# PyASCIIArt
+
+[简体中文](README_zh.md)
+
+PyASCIIArt is a Python library for creating ASCII art and animations.
+
+## Modules
+
+-   `ascii_renderer`: This is the main module of the project, responsible for rendering ASCII art.
+
+## Examples
+-   `demo_animation`: An example project showcasing animation capabilities.
+-   `flappy_bird`: An example game project built with PyASCIIArt.
+
+## Development Status
+
+This project is currently in its early stages of development. However, it has unlimited potential!
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit Pull Requests or open Issues.
+
+## License
+
+This project is licensed under the Apache License 2.0. See the [LICENSE](LICENSE) file for details
