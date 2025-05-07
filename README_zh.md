@@ -2,7 +2,7 @@
 
 [English](README.md)
 
-PyASCIIArt 是一个用于创建控制台字符画、动画甚至游戏的Python库！
+PyASCIIArt 是一个用于创建控制台字符画、动画甚至游戏的Python渲染引擎！
 
 ## 模块
 

@@ -2,7 +2,7 @@
 
 [简体中文](README_zh.md)
 
-PyASCIIArt is a Python library for creating console ASCII art and animations, even games!
+PyASCIIArt is a Python render engine for creating console ASCII art, animations, even games! 
 
 ## Modules
 
