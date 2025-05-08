@@ -9,7 +9,6 @@ PyASCIIArt is a Python render engine for creating console ASCII art, animations,
 -   `ascii_renderer`: This is the main module of the project, responsible for rendering ASCII art.
 
 ## Examples
--   `demo_animation`: An example project showcasing animation capabilities.
 -   `flappy_bird`: An example game project built with PyASCIIArt.
 
 ## Development Status

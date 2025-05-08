@@ -9,7 +9,6 @@ PyASCIIArt 是一个用于创建控制台字符画、动画甚至游戏的Python
 -   `ascii_renderer`: 这是项目的主要模块，负责渲染字符画。
 
 ## 示例
--   `demo_animation`: 一个展示动画功能的示例项目。
 -   `flappy_bird`: 一个使用 PyASCIIArt 构建的示例游戏项目。
 
 ## 开发状态
