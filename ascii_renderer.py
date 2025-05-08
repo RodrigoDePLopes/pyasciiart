@@ -3,7 +3,7 @@ Core rendering module for the ASCII art engine.
 """
 
 import time
-import os
+
 try:
     import msvcrt
 except ImportError:
@@ -257,44 +257,3 @@ def go(width=80, height=25, title="ASCII Game", char_map=None, target_fps=30, ga
     renderer.target_fps = target_fps
     renderer.game_speed = game_speed
     renderer.run()
-
-# Example of how to use the new API (can be in a separate main.py)
-# To run this example, you would save it as, e.g., main_game.py and run it.
-# It won't run directly if __name__ == '__main__' is inside ascii_renderer.py
-# because the global `update` and `draw` wouldn't be correctly picked up by `go()`.
-
-# --- main_game.py (Example) ---
-# import ascii_renderer as ar
-# import time
-import os
-try:
-    import msvcrt
-except ImportError:
-    msvcrt = None  # Placeholder for non-Windows systems
-# 
-# WIDTH = 40
-# HEIGHT = 20
-# 
-# # Game state
-# box_x = 0
-# box_y = 5
-# box_dx = 10 # units per second
-# 
-# def update(dt): # dt is delta time in seconds
-#     global box_x
-#     box_x += box_dx * dt
-#     if box_x > WIDTH - 5 or box_x < 0:
-#         box_x = max(0, min(box_x, WIDTH - 5)) # clamp
-#         # In a real pgzero example, you might change direction here
-# 
-# def draw(screen): # screen is the AsciiRenderer instance
-#     screen.clear_buffer() # Clear with default space
-#     # Draw a simple box
-#     for i in range(5):
-#         screen.draw_char(int(box_x) + i, box_y, '#', color_code=200) # Red-ish box
-#     screen.draw_text(0, 0, f"Box X: {box_x:.1f}", color_code=226) # Yellow text
-# 
-# # To run:
-# # ar.go(WIDTH, HEIGHT, title="My ASCII Game", target_fps=20)
-# # This line would typically be at the end of your main_game.py file.
-# --- End of main_game.py (Example) ---
